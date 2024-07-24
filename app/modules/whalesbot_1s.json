@@ -1,0 +1,28 @@
+{
+    "id": "610101",
+    "name": {
+        "en": "WhalesBot 1S",
+        "ko": "웨일스봇 1S"
+    },
+    "category": "module",
+    "platform": ["win32", "darwin"],
+    "icon": "whalesbot_1s.png",
+    "module": "whalesbot_1s.js",
+    "url": "",
+    "email": "gaionms@gaion.kr",
+    "driver": {
+        "win32-ia32": "WhalesBot/SETUP",
+        "win32-x64": "WhalesBot/CH341SER/SETUP"
+    },
+    "reconnect": true,
+    "firmware": "WhalesBot1S",
+    "firmwareBaudRate": 57600,
+    "hardware": {
+        "type": "bluetooth",
+        "control": "slave",
+        "duration": 32,
+        "vendor": "MC 101s",
+        "baudRate": 115200,
+        "firmwarecheck" : true
+    }
+}
