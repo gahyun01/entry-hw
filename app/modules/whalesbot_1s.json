@@ -5,7 +5,7 @@
         "ko": "웨일스봇 1S"
     },
     "category": "module",
-    "platform": ["win32", "darwin"],
+    "platform": "win32",
     "icon": "whalesbot_1s.png",
     "module": "whalesbot_1s.js",
     "url": "",
@@ -21,7 +21,7 @@
         "type": "serial",
         "control": "slave",
         "duration": 32,
-        "vendor": "MC 101s",
+        "vendor": ["MC 101s"],
         "baudRate": 115200,
         "firmwarecheck" : true
     }
